@@ -45,8 +45,8 @@ const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`
 // Array.prototype.sort()
 // 3. Sort the inventors by birthdate, oldest to youngest and return the sorted array
 export function sort() {
-const sortedInventors = inventors.sort((a, b) => a.year - b.year);
-    return sortedInventors;
+const ordered = inventors.sort((a, b) => a.year - b.year);
+    return ordered;
 }
 
 
